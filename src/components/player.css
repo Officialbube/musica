@@ -1,0 +1,9 @@
+.player{
+    height: 125px;
+    width: 100%;
+    background-color: #ffffff49;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}

@@ -1,0 +1,74 @@
+.hero{
+    display: flex;
+    column-gap: 22px;
+    width: 100%;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 65%;
+    height: 373px;
+    /*border: 1px solid;*/
+    border-radius: 40px;
+    background-color: #609EAF;
+    padding: 40px 45px;
+}
+.rb-hits{
+    width: 45%;
+}
+.vector{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 40px;
+}
+.singer{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.top-chart{
+    width: 35%;
+}
+.top-chart h2{
+    margin-bottom: 14px;
+}
+.chart-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    width: 100%;
+    background-color: #1A1E1F;
+    margin-bottom: 12px;
+    border-radius: 20px;
+}
+.image-and-name{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.name h3{
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.name p:nth-child(2){
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #ffffff88;
+    margin-bottom: 8px;
+}
+.name p:nth-child(3){
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.like{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 2.3rem;
+    width: 2.3rem;
+}

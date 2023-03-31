@@ -1,0 +1,17 @@
+.top-link, .bottom-link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 34px;
+    margin-bottom: 20px;
+    background-color: #1A1E1F;
+    padding: 25px 15px;
+    border-radius: 32px;
+}
+.top-link a, .bottom-link a{
+    color: #ffffff;
+}
+.top-link a:hover, .bottom-link a:hover{
+    color: #FACD66;
+    cursor: pointer;
+}

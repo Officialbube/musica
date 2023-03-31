@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    column-gap: 24px;
+    width: 100%;
+}
+.aside-link{
+    width: 4%;
+}
+.main-content{
+    width: 96%;
+}
