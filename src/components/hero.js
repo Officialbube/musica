@@ -14,7 +14,7 @@ const Hero = () => {
                         Out of time, No love, Bad habit,
                         and so much more</p>
                 </div>
-                <div>
+                <div className="likes">
                     <p>33k Likes</p>
                 </div>
                 <img src={"./assets/vectors/vector.png"} className="vector" />
@@ -35,7 +35,7 @@ const Hero = () => {
                                 <p>2:34:45</p>
                             </div>
                         </div>
-                        <div className="like"></div>
+                        <div className="like"><i class="fa fa-heart"></i></div>
                     </div>
                     <div className="chart-container">
                         <div className="image-and-name">
@@ -48,7 +48,7 @@ const Hero = () => {
                                 <p>1:02:42</p>
                             </div>
                         </div>
-                        <div className="like"></div>
+                        <div className="like"><i class="fa fa-heart"></i></div>
                     </div>
                     <div className="chart-container">
                         <div className="image-and-name">
@@ -61,7 +61,7 @@ const Hero = () => {
                                 <p>2:01:25</p>
                             </div>
                         </div>
-                        <div className="like"></div>
+                        <div className="like"><i class="fa fa-heart"></i></div>
                     </div>
 
                 </div>

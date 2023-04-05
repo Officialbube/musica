@@ -2,6 +2,7 @@ import React from "react";
 import "./content.css";
 import Hero from "./hero";
 import NewRelease from "./newRelease";
+import Popular from "./popular";
 
 
 const Content = ()=>{
@@ -9,6 +10,7 @@ const Content = ()=>{
         <div className="content">
             <Hero />
             <NewRelease />
+            <Popular />
             
         </div>
     )

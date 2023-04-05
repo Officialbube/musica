@@ -1,12 +1,15 @@
 import React from "react";
-import "./newRelease.css";
+import "./popular.css";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from 'react';
 
 
 
-const NewRelease = () => {
-    
+
+
+
+const Popular = () => {
+
     const [width, setWidth] = useState(0)
     const carousel = useRef();
     useEffect(()=>{
@@ -17,10 +20,10 @@ const NewRelease = () => {
         <div className="newrelease">
             <div className="newrelease-container">
                 <div className="newrelease-title">
-                    <h2>New releases.</h2>
+                    <h2>Popular in your area</h2>
                 </div>
-                <motion.div className="carousel" ref={carousel} whileTap={{cursor:"grabbing"}} >
-                    <motion.div  className="inner-carousel" drag="x" dragConstraints={{right:0, left:-width}}>
+                <motion.div className="carousel" ref={carousel} whileTap={{cursor:"grabbing"}}>
+                    <motion.div class="inner-carousel" drag="x" dragConstraints={{right:0, left:-width}}>
 
                         
 
@@ -73,17 +76,19 @@ const NewRelease = () => {
                                 <p className="release-title">Blind</p>
                                 <p className="release-artist">Wiz zee</p>
                             </div>
-                          
 
+
+                            
+
+
+                            <div class="swiper-scrollbar"></div>
                         
-
-
-                        
-                    </motion.div>
                 </motion.div>
-            </div>
+            </motion.div>
+        </div>
         </div>
     )
 }
 
-export default NewRelease;
+
+export default Popular;

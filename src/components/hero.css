@@ -43,6 +43,7 @@
     width: 100%;
     background-color: #1A1E1F;
     margin-bottom: 12px;
+    padding: 0 17px;
     border-radius: 20px;
 }
 .image-and-name{
@@ -67,8 +68,36 @@
     color: #ffffff;
 }
 .like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid;
     border-radius: 50%;
     height: 2.3rem;
     width: 2.3rem;
 }
+@media (max-width: 720px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero-container{
+        width: 100%;
+        display: block;
+        height: 503px;
+    }
+    .top-chart{
+        width: 100%;
+        margin-top: 47px;
+    }
+    .singer, .vector{
+        display: none;
+    }
+    .rb-hits{
+        width: 100%;
+        margin-top: 236px;
+    }
+    .likes{
+        margin-top: 48px;
+    }
+}
+    

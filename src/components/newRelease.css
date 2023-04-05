@@ -4,6 +4,15 @@
 .swiper-container{
     margin-top: 20px;
 }
+.carousel{
+    cursor: grab;
+    overflow: hidden;
+}
+.inner-carousel{
+   display: flex; 
+   column-gap: 30px;
+    
+}
 .swiper-wrapper{
     display: flex;
     column-gap: 30px;
@@ -24,4 +33,9 @@
 
 .swiper-image img{
     width: 100%;
+}
+.release-title, .release-artist{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
 }

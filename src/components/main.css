@@ -9,3 +9,8 @@
 .main-content{
     width: 96%;
 }
+@media (max-width: 720px){
+    .aside-link{
+        display: none;
+    }
+}
