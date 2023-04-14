@@ -85,10 +85,29 @@
 }
 @media (max-width: 720px) {
     .player{
+        
         padding: 0 2rem;
-        width: 90%;
+        width: 100%;
     }
-    .song-volume, .shuffle, .back, .repeat{
+    .song-controls-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .song-controls{
+        column-gap: 1.5rem;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .play{
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+    }
+    .song-controls button:nth-child(1), .song-controls button:nth-child(2), .song-controls button:nth-child(5){
+        display: none;
+    }
+    .song-volume, .song-duration, .shuffle, .back, .repeat{
         display: none;
     }
 }
