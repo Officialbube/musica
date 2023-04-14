@@ -1,7 +1,16 @@
 import React from "react";
 import "./hero.css";
+import { motion } from "framer-motion";
+import { useRef, useState, useEffect } from 'react';
+
 
 const Hero = () => {
+    const [width, setWidth] = useState(0)
+    const carousel = useRef();
+    useEffect(()=>{
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+    })
+
     return (
         <div className="hero">
             <div className="hero-container">
@@ -23,7 +32,8 @@ const Hero = () => {
             </div>
             <div className="top-chart">
                 <h2>Top charts</h2>
-                <div className="chart-list">
+                <motion.div className="carousel" ref={carousel} whileTap={{cursor:"grabbing"}} >
+                <motion.div className="chart-list" drag="x" dragConstraints={{right:0, left:-width}}>
                     <div className="chart-container">
                         <div className="image-and-name">
                             <div className="image">
@@ -64,7 +74,8 @@ const Hero = () => {
                         <div className="like"><i class="fa fa-heart"></i></div>
                     </div>
 
-                </div>
+                </motion.div>
+                </motion.div>
             </div>
         </div>
     )
