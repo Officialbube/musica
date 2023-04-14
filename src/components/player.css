@@ -100,15 +100,20 @@
         justify-content: flex-end;
         width: 100%;
     }
-    .play{
-        border: 1px solid #ffffff;
-        border-radius: 50%;
-        height: 36px;
-        width: 36px;
+    .song-controls button:nth-child(3){
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 36px;
+       width: 36px;
+       
+       background-color: #FACD66;
+        
     }
     .song-controls button:nth-child(1), .song-controls button:nth-child(2), .song-controls button:nth-child(5){
         display: none;
     }
+    
     .song-volume, .song-duration, .shuffle, .back, .repeat{
         display: none;
     }
