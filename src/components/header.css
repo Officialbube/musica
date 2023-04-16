@@ -4,7 +4,9 @@
     padding: 23px 20px;
     color: #ffffff62;
 }
-
+.glass-mobile{
+    display: none;
+}
 .search-input{
     display: flex;
     align-items: center;
@@ -27,8 +29,27 @@ input{
         justify-content: space-between;
         padding: 25px 0px;
     }
+    .header-left{
+        display: flex;
+        align-items: center;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .burger span{
+        display: block;
+        width: 1rem;
+        border: 2px solid #ffffff;
+        
+    }
+    .glass-mobile{
+        display: block;
+    }
     .search-input{
         width: 0;
+        display: none;
     }
     input{
         display: none;
