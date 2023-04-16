@@ -27,6 +27,7 @@ const Hero = () => {
                     <p>33k Likes</p>
                 </div>
                 <img src={"./assets/vectors/vector.png"} className="vector" />
+                <img src={"./assets/vectors/vector (2).png"} className="vector2" />
                 <img src={"./assets/images/Pexels Photo by Eric Esma.png"} className="singer" />
                 
             </div>
