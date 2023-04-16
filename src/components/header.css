@@ -32,6 +32,7 @@ input{
     .header-left{
         display: flex;
         align-items: center;
+        column-gap: 1.6rem;
     }
     .burger{
         display: flex;
@@ -40,8 +41,8 @@ input{
     }
     .burger span{
         display: block;
-        width: 1rem;
-        border: 2px solid #ffffff;
+        width: 1.3rem;
+        border: 1.5px solid #ffffff;
         
     }
     .glass-mobile{
