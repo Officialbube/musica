@@ -70,7 +70,7 @@
     color: #ffffff;
 }
 .song-controls button:hover{
-    background-color: #FACD66;
+    
     cursor: pointer;
 }
 .song-duration{
