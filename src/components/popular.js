@@ -17,7 +17,7 @@ const Popular = () => {
     })
 
     return (
-        <div className="newrelease">
+        <div className="newrelease popular">
             <div className="newrelease-container">
                 <div className="newrelease-title">
                     <h2>Popular in your area</h2>
