@@ -11,6 +11,7 @@
 .inner-carousel{
    display: flex; 
    column-gap: 30px;
+   width: 1251px;
     
 }
 .swiper-wrapper{
