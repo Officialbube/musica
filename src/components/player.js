@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import './player.css'
 
 
+
 const Player = ()=>{
+   
+    const [isPlaying , setIsPlaying] = useState(false);
+
+    const togglePlay = () => {
+        setIsPlaying(!isPlaying);
+    }
     return(
             <div className="player">
                 <div className="song-details">
@@ -18,7 +25,9 @@ const Player = ()=>{
                     <div className="song-controls">
                         <button><i class="fa fa-shuffle shuffle"></i></button>
                         <button><i class="fa-solid fa-backward-step back"></i></button>
-                        <button><i class="fa fa-play play"></i></button>
+                        <button onClick={togglePlay} className="btn">
+                            {isPlaying ? <i class="fa fa-pause play"></i> : <i class="fa fa-play play"></i>}
+                            </button>
                         <button><i class="fa-sharp fa-solid fa-forward-step next"></i></button>
                         <button><i class="fa-solid fa-repeat repeat"></i></button>
                     </div>
