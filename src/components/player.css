@@ -12,6 +12,11 @@
     padding: 0 4.5rem;
     
 }
+input[type=range]{
+    -webkit-appearance: none;
+    background-color: #FACD66;
+    
+}
 .song-details{
     display: flex;
     align-items: center;

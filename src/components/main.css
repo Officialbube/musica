@@ -17,3 +17,8 @@
         width:100%;
     }
 }
+@media(max-width: 850px){
+    .main-content{
+        padding: 0 20px;
+    }
+}

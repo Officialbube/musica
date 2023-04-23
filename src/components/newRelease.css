@@ -11,6 +11,7 @@
 .inner-carousel{
    display: flex; 
    column-gap: 30px;
+   width: 1251px;
    
     
 }
@@ -56,4 +57,7 @@
         line-height: 0.93rem;
         font-weight: 400;
     }
+}
+@media(max-width: 850px){
+    
 }

@@ -1,3 +1,11 @@
 .popular{
-    padding-bottom: 125px;
+    
+}
+.inner-carousel{
+    width: 1251px;
+}
+@media(max-width: 850px){
+    .popular{
+        
+    }
 }
