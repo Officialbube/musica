@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css';
+import { BsSearch } from 'react-icons/bs'
 
 const Header = ()=>{
     return(
@@ -15,7 +16,7 @@ const Header = ()=>{
                 
                 <i class="fa fa-magnifying-glass glass-mobile"></i>
                 <div className="search-input">
-                    <i class="fa fa-magnifying-glass"></i>
+                    <BsSearch/>
                     <input type="search" placeholder="Search Artist"/>
                 </div>
             </div>

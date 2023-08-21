@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from 'react';
+import { AiOutlineHeart } from 'react-icons/ai'
 
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
                                 <p>2:34:45</p>
                             </div>
                         </div>
-                        <div className="like"><i class="fa fa-heart"></i></div>
+                        <div className="like"><AiOutlineHeart/></div>
                     </div>
                     <div className="chart-container">
                         <div className="image-and-name">
@@ -59,7 +60,7 @@ const Hero = () => {
                                 <p>1:02:42</p>
                             </div>
                         </div>
-                        <div className="like"><i class="fa fa-heart"></i></div>
+                        <div className="like"><AiOutlineHeart/></div>
                     </div>
                     <div className="chart-container">
                         <div className="image-and-name">
@@ -72,7 +73,7 @@ const Hero = () => {
                                 <p>2:01:25</p>
                             </div>
                         </div>
-                        <div className="like"><i class="fa fa-heart"></i></div>
+                        <div className="like"><AiOutlineHeart/></div>
                     </div>
 
                 </motion.div>

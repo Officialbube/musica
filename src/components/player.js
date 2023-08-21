@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './player.css'
-
+import { BsPlay, BsPause, BsRepeat, BsVolumeUpFill } from 'react-icons/bs'
+import { BiSkipNext, BiSkipPrevious  } from 'react-icons/bi'
+import { IoShuffleOutline } from 'react-icons/io5'
 
 
 const Player = ()=>{
@@ -23,20 +25,20 @@ const Player = ()=>{
                 </div>
                 <div className="song-controls-container">
                     <div className="song-controls">
-                        <button><i class="fa fa-shuffle shuffle"></i></button>
-                        <button><i class="fa-solid fa-backward-step back"></i></button>
+                        <button><IoShuffleOutline/></button>
+                        <button><BiSkipPrevious/></button>
                         <button onClick={togglePlay} className="btn">
-                            {isPlaying ? <i class="fa fa-pause play"></i> : <i class="fa fa-play play"></i>}
+                            {isPlaying ? <BsPause className="play"/> : <BsPlay/>}
                             </button>
-                        <button><i class="fa-sharp fa-solid fa-forward-step next"></i></button>
-                        <button><i class="fa-solid fa-repeat repeat"></i></button>
+                        <button><BiSkipNext/></button>
+                        <button><BsRepeat/></button>
                     </div>
                     <div className="song-duration">
                         <input type="range" name="" id="" />
                     </div>
                 </div>
                 <div className="song-volume">
-                    <i class="fa fa-volume"></i><input type="range" name="" id="" />
+                    <BsVolumeUpFill/><input type="range" name="" id="" />
                 </div>
                 
             </div>
