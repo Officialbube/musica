@@ -82,6 +82,7 @@
 @media (max-width: 720px) {
     .hero{
         flex-direction: column;
+        width: 100%;
     }
     .hero-container{
         width: 100%;
@@ -180,11 +181,11 @@
 }
 @media(max-width: 850px){
     .hero-container{
-        width: 65%;
+        width: 100%;
         overflow: hidden;
     }
     .top-chart{
-        width: 35%;
+        width: 100%;
     }
 }
     
