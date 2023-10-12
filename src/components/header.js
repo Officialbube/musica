@@ -2,6 +2,8 @@ import React from "react";
 import './header.css';
 import { BsSearch } from 'react-icons/bs'
 
+
+
 const Header = ()=>{
     return(
         <div className="header">
